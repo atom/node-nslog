@@ -1,7 +1,6 @@
 {
   "main": "./lib/nslog.js",
   "name": "nslog",
-  "readme": "README.md",
   "version": "0.1.0",
   "licenses": [
     {
