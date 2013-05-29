@@ -1,5 +1,5 @@
 {
-  "main": "./lib/node-nslog.js",
+  "main": "./lib/nslog.js",
   "name": "nslog",
   "readme": "README.md",
   "version": "0.0.0",
