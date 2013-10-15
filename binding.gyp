@@ -31,6 +31,11 @@
             'src/nslog_win.cc',
           ],
         }],
+        ['OS=="linux"', {
+          'sources': [
+            'src/nslog_linux.cc',
+          ],
+        }],
       ],
     }
   ]
