@@ -1,11 +1,11 @@
 #include "nslog.h"
 
-#import <Foundation/Foundation.h>
+#include <iostream>
 
 namespace nslog {
 
 void Log(const std::string& message) {
-  NSLog(@"%s", message.c_str());
+  std::cout << message;
 }
 
 }  // namespace nslog
