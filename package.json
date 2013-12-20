@@ -28,6 +28,7 @@
     "coffee-script": "~1.6.2"
   },
   "dependencies": {
+    "nan": "0.7.0",
     "bindings": "~1.1.0"
   }
 }
