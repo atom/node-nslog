@@ -1,4 +1,4 @@
-NSLog = require('bindings')('nslog.node')
+NSLog = require('../build/Release/nslog.node')
 util = require('util')
 
 module.exports = (args...) ->
