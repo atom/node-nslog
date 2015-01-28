@@ -29,6 +29,6 @@
     "coffee-script": "~1.6.2"
   },
   "dependencies": {
-    "nan": "1.2.0"
+    "nan": "https://atom.io/download/atom-shell/nan-1.6.1.tgz"
   }
 }
