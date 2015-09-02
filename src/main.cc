@@ -6,16 +6,16 @@ using namespace v8;
 namespace {
 
 NAN_METHOD(Log) {
-  NanScope();
+  Nan::HandleScope scope;
 
-  String::Utf8Value utf8_string(Local<String>::Cast(args[0]));
+  String::Utf8Value utf8_string(Local<String>::Cast(info[0]));
   nslog::Log(*utf8_string);
 
-  NanReturnUndefined();
+  return;
 }
 
 void Init(Handle<Object> exports) {
-  NODE_SET_METHOD(exports, "log", Log);
+  Nan::SetMethod(exports, "log", Log);
 }
 
 }  // namespace
