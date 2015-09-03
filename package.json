@@ -2,7 +2,7 @@
   "main": "./lib/nslog.js",
   "name": "nslog",
   "description": "Cross platform native logging",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "licenses": [
     {
       "type": "MIT",
