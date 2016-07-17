@@ -18,6 +18,9 @@
       ],
       'conditions': [
         ['OS=="mac"', {
+          'xcode_settings': {
+            'SDKROOT': 'macosx10.11'
+          },
           'sources': [
             'src/nslog_mac.mm',
           ],
