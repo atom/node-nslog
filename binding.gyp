@@ -40,6 +40,11 @@
             'src/nslog_linux.cc',
           ],
         }],
+        ['OS=="freebsd"', {
+          'sources': [
+            'src/nslog_linux.cc',
+          ],
+        }],
       ],
     }
   ]
