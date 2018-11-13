@@ -18,15 +18,13 @@
       ],
       'conditions': [
         ['OS=="mac"', {
-          'xcode_settings': {
-            'SDKROOT': 'macosx10.11'
-          },
           'sources': [
             'src/nslog_mac.mm',
           ],
           'link_settings': {
             'libraries': [
-              '$(SDKROOT)/System/Library/Frameworks/AppKit.framework',
+              'Foundation.framework',
+              'AppKit.framework',
             ],
           }
         }],

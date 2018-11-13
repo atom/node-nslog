@@ -29,6 +29,6 @@
     "coffee-script": "~1.6.2"
   },
   "dependencies": {
-    "nan": "^2.0.0"
+    "nan": "^2.11.0"
   }
 }
