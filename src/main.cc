@@ -8,13 +8,13 @@ namespace {
 NAN_METHOD(Log) {
   Nan::HandleScope scope;
 
-  String::Utf8Value utf8_string(Local<String>::Cast(info[0]));
+  Nan::Utf8String utf8_string(Local<Value>::Cast(info[0]));
   nslog::Log(*utf8_string);
 
   return;
 }
 
-void Init(Handle<Object> exports) {
+void Init(Local<Object> exports) {
   Nan::SetMethod(exports, "log", Log);
 }
 
